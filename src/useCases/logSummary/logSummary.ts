@@ -40,7 +40,7 @@ function getPageTotalViewsSummary(rawLogs: PageViewLogs) {
   return views;
 }
 
-function getRawLogs(data: string): PageViewLogs {
+export function getRawLogs(data: string): PageViewLogs {
   const rawLog: PageViewLogs = {};
   data
     .split('\n')
