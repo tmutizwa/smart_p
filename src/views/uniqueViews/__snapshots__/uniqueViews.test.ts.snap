@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unique Views display should log the data correctly 1`] = `"[4mUnique Views[24m"`;
+
+exports[`Unique Views display should log the data correctly 2`] = `
+"[32m[39m
+[32m   ╭──────────────────────────────────╮[39m
+   [32m│[39m                                  [32m│[39m
+   [32m│[39m   [92m/help_page/1[39m [31m3[39m unique views    [32m│[39m
+   [32m│[39m   [92m/home[39m [31m2[39m unique views           [32m│[39m
+   [32m│[39m   [92m/contact[39m [31m1[39m unique views        [32m│[39m
+   [32m│[39m   [92m/about/2[39m [31m1[39m unique views        [32m│[39m
+   [32m│[39m                                  [32m│[39m
+   [32m│[39m                                  [32m│[39m
+[32m   ╰──────────────────────────────────╯[39m
+[32m[39m"
+`;

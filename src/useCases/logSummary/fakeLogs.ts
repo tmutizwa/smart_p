@@ -25,3 +25,17 @@ export const parsedFakeLog = {
   '/home': ['184.123.665.067', '235.313.352.950'],
   '/about/2': ['444.701.448.104'],
 };
+
+export const fakeTotalViewsSummary = {
+  '/help_page/1': 4,
+  '/contact': 3,
+  '/home': 2,
+  '/about/2': 1,
+};
+
+export const fakeUniqueViewsSummary = {
+  '/help_page/1': 3,
+  '/contact': 1,
+  '/home': 2,
+  '/about/2': 1,
+};
